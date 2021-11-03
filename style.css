@@ -1,0 +1,103 @@
+#pais{
+	background-color:#a4cfde;
+	padding:10px;
+	display:block;
+	overflow:hidden;
+
+}
+#pais1{
+	width:20%;
+	position: relative;
+	float: left;
+	text-align: center;
+}
+
+#pais2{
+	width:80%;
+	position: relative;
+	float: right;
+	text-align: left;
+	font-weight: bold;
+}
+
+#menuu {
+	margin-bottom:40px;
+	background-color:#dec5a4;
+	text-align: center;
+
+}
+
+#menuu ul li{
+	position: relative;
+	display: inline-block;
+	max-width: 150px;
+	margin-bottom:10px;
+}
+
+#menuu ul li a{
+	display: block;
+	font-size:20px;
+	font-weight: bold;
+	padding:10px;
+	text-decoration: none;
+	border-bottom: transparent 3px solid;
+}
+
+#menuu ul li a:hover{
+	color: #001bb4;
+	background-color:#dea8a4;
+}
+
+body {
+    background-color: #a4cfde;
+    padding:30px;
+}
+
+#avaleht{
+	background-color:#a4cfde;
+	padding:30px;
+	display:block;
+	overflow:hidden;
+}
+
+#vasak{
+	width:60%;
+	display: block;
+	position: relative;
+	float: left;
+}
+
+#parem{
+	width:40%;
+	display: block;
+	position: relative;
+	float: right;
+}
+
+
+h1{
+	font-size:32px;
+	line-height:32px;
+}
+
+h2{
+	font-size:24px;
+	line-height:32px;
+}
+
+#jalus{
+	
+	width: 100%;
+	background-color:#dea8a4;
+	text-align: center;
+}
+
+#jalus p{
+	line-height: 40px;
+	color:#fff;
+}
+
+#teenused ul li{
+    font-size: 18px;
+    text-decoration: underline;
+}
