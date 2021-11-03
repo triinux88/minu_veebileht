@@ -97,7 +97,7 @@ h2{
 	color:#fff;
 }
 
-#teenused ul li{
+#teenused dt dd{
     font-size: 18px;
     text-decoration: underline;
 }
