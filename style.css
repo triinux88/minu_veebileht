@@ -16,7 +16,7 @@
 	width:80%;
 	position: relative;
 	float: right;
-	text-align: left;
+	text-align: right;
 	font-weight: bold;
 }
 
@@ -54,7 +54,7 @@ body {
 }
 
 #avaleht{
-	background-color:#a4cfde;
+	background-color:#a4cfde !important;
 	padding:30px;
 	display:block;
 	overflow:hidden;

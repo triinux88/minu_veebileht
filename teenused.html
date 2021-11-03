@@ -4,7 +4,7 @@
 <head>
     <title>Oherdi tiim</title>
     <meta name="keywords" content="teemantpuurimine,oherdi tiim, teemantsaagimine" />
-    <meta name="author" content="Triin Lätti" />
+    <meta name="author" content="Triin Latti" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="style.css">
@@ -13,7 +13,7 @@
 <body>
     <div id="pais">
         <div id="pais1">
-            <img src="logo.jpg" width="100" height="100" alt="Logo">
+            <img src="logo.jpg"  class="img-fluid" width="100" height="100" alt="Logo">
         </div>
         <div id="pais2">
             Mobiil: +372 5354 0905 ja e-mail: enn.keerd1@gmail.com
@@ -29,19 +29,27 @@
         </ul>
     </nav>
     <hr>
-    <div id="teenused">
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+            <div id="teenused">
     <h2>Teenused</h2>
-    <ul>
-        <li>Teemantpuurimine</li>
-        <p>Puurime raskesti läbitavatesse ehituskonstruktsioonidesse ümmargused 
-        <br> avad ventilatsiooni-, vee-, kanalitorudele ning kaablitele.</p>
-        <li>Teemantsaagimine</li>
-        <p>Saeme sirged lõiked ukse- ja aknaavade tarbeks.</p>
-        <li>Lammutamine</li>
-        <p>Teeme väiksemahulisi lammutustöid.</p>
-    </ul>
-    <img src="teemantsaagimine.jpg" width="500" height="400" alt="Pilt teemantpuurist">
+    <dl>
+        <dt>Teemantpuurimine</dt>
+        <dd>Puurime raskesti läbitavatesse ehituskonstruktsioonidesse ümmargused 
+        <br> avad ventilatsiooni-, vee-, kanalitorudele ning kaablitele.</dd> 
+        <dt>Teemantsaagimine</dt>
+        <dd>Saeme sirged lõiked ukse- ja aknaavade tarbeks.</dd>
+        <dt>Lammutamine</dt>
+        <dd>Teeme väiksemahulisi lammutustöid.</dd>
+    </dl>
+</div>
+<div class="col-6">
+    <img src="https://www.365contractors.co.uk/wp-content/uploads/2017/03/365-floor-sawing.jpg" class="img-fluid" width="500" height="300" alt="Pilt teemantpuurist">
     </div>
+</div>
+</div>
+</div>
 </body>
 
 </html>
