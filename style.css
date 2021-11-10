@@ -1,51 +1,9 @@
-#pais{
-	background-color:#a4cfde;
-	padding:10px;
-	display:block;
-	overflow:hidden;
-
-}
-#pais1{
-	width:20%;
-	position: relative;
-	float: left;
-	text-align: center;
-}
-
-#pais2{
-	width:80%;
-	position: relative;
-	float: right;
-	text-align: right;
-	font-weight: bold;
-}
-
-#menuu {
+.navbar {
 	margin-bottom:40px;
 	background-color:#dec5a4;
 	text-align: center;
-
-}
-
-#menuu ul li{
-	position: relative;
-	display: inline-block;
-	max-width: 150px;
-	margin-bottom:10px;
-}
-
-#menuu ul li a{
-	display: block;
-	font-size:20px;
 	font-weight: bold;
-	padding:10px;
-	text-decoration: none;
-	border-bottom: transparent 3px solid;
-}
 
-#menuu ul li a:hover{
-	color: #001bb4;
-	background-color:#dea8a4;
 }
 
 body {
