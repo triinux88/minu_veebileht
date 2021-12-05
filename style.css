@@ -1,3 +1,11 @@
+@media (max-width: 768.98px) {
+	font-size: 24;
+}
+.logo {
+	max-height: 100px ;
+	max-width: 100px ;
+}
+
 .navbar {
 	margin-bottom:40px;
 	background-color:#dec5a4;
@@ -58,4 +66,8 @@ h2{
 #teenused dt dd{
     font-size: 18px;
     text-decoration: underline;
+}
+
+#hinnakiri tr {
+	border-bottom: 2px solid;
 }
