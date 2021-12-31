@@ -1,13 +1,14 @@
-@media (max-width: 768.98px) {
-	font-size:24px;
-}
+@media (max-width: 1200px) {  
+	body {
+	  font-size:calc(1rem + 1vw);
+	}
+  }
 
 .header {
 	background-color: #dec5a4;
-	padding:10px;
+	padding:5px;
 	margin-bottom: 10px;
-	margin-left: 50px;
-	text-align: right;
+	text-align: center;
 	
 }
 .logo {
@@ -17,8 +18,8 @@
 }
 
 .navbar {
-	margin-bottom:20px;
-	padding:10px;
+	margin-bottom:10px;
+	padding:5px;
 	background-color:#dec5a4;
 	text-align: center;
 	font-weight: bold;
