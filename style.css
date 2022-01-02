@@ -1,8 +1,40 @@
-@media (max-width: 1200px) {  
-	body {
-	  font-size:calc(1rem + 1vw);
+
+/* DESKTOP */
+
+@media (min-width: 576px) {
+	
+	p {
+		font-size: 0.8em;
 	}
+
+	h5 {
+		font-size: 1.2em;
+	}
+
+	h3 {
+		font-size: 1.4em;
+	}
+
   }
+
+/* MOBIIL */
+@media (max-width: 576px) {
+	
+	p {
+		font-size: 1em;
+	}
+
+	h5 {
+		font-size: 1.5em;
+	}
+
+	h3 {
+		font-size: 1.7em;
+	}
+
+  }
+
+
 
 .header {
 	background-color: #dec5a4;
@@ -49,3 +81,4 @@ h2{
 #hinnakiri tr {
 	border-bottom: 2px solid;
 }
+
